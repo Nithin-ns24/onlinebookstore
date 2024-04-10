@@ -1,7 +1,9 @@
 name: SonarCloud Code Analysis
 
 on:
-  workflow_dispatch:
+  push:
+   branches:
+    - master
 
 jobs:
   build:
